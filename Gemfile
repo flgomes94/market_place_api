@@ -34,7 +34,7 @@ group :test do
   gem "rspec-rails", '2.14.2'
   gem "factory_girl_rails"
   gem 'ffaker'
-  gem "shoulda-matchers"
+  gem "shoulda-matchers", "~>2.5"
 end
 
 gem "devise"
